@@ -92,7 +92,7 @@
 
 // Send G29 for auto bed leveling
 #define AUTO_BED_LEVELING
-#ifdef AUTO_BED_LEVELING
+//#ifdef AUTO_BED_LEVELING
   // Enable this will send "M500" after "G29" to store leveling value
   // and send "M420 S1" to enable leveling state after startup
   #define AUTO_SAVE_LOAD_LEVELING_VALUE
